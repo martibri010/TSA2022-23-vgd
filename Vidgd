@@ -1,1 +1,38 @@
+var xC,XC,CC,XX,XH,dir,bx,by
+function setup() {
+  createCanvas(600, 600);
+xC=0
+XC=50
+CC=-50
+XX=100
+XH=0
+dir=0.1
+bx=0
+by=0
+}
+
+function draw() {
+  background(0,180,240); 
+strokeWeight(0)
+fill(255)
+ellipse(xC+300,150,230,80)
+ellipse(xC+200,130,50,50)
+ellipse(xC+180,150,50,50) 
+ellipse(xC+200,170,50,50)
+ellipse(xC+220,180,50,50)
+ellipse(xC+250,185,50,50) 
+ellipse(xC+280,190,50,50)  
+ellipse(xC+310,190,50,50)  
+ellipse(xC+340,185,50,50)
+ellipse(xC+370,180,50,50)
+ellipse(xC+390,170,50,50) 
+ellipse(xC+410,150,50,50)
+ellipse(xC+220,180,50,50)
+ellipse(xC+220,120,50,50)
+ellipse(xC+250,115,50,50) 
+ellipse(xC+280,110,50,50)  
+ellipse(xC+310,110,50,50)  
+ellipse(xC+340,115,50,50)
+ellipse(xC+370,120,50,50)
+ellipse(xC+390,130,50,50) 
 
